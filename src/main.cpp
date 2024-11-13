@@ -49,7 +49,7 @@ int main(int argc, char* argv[]){
 		icon.render(rend, 100, 100, 100, 100);
 
 		SDL_GetMouseState(&mouse_x, &mouse_y);
-		cursor.render(rend,mouse_x, mouse_y, 22, 22);
+		cursor.render(rend,mouse_x, mouse_y, 33, 33);
 		SDL_RenderPresent(rend);
 	}
 	SDL_DestroyWindow(win);
